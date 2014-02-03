@@ -3,7 +3,7 @@ require 'fileutils'
 
 module Boing
   class Runner
-    INPROC_RAILS_CMDS = %w[c console r runner g generate d destroy]
+    INPROC_RAILS_COMMANDS = %w[c console r runner g generate d destroy]
 
     def initialize(args)
       @args = args.dup
